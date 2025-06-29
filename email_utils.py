@@ -6,7 +6,7 @@ import re
 _RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 
 def is_valid(address):
-    return bool(_RE.match(address))
+    return bool(_RE.fullmatch(address))
 
 def get_domain(addr):
     # returns everything after the last "@"
