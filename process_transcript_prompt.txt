@@ -1,0 +1,9 @@
+Context I have a Python function called process_transcript that returns a word-count mapping for a chat transcript.
+
+Instruction Refactor this function into: • clean_text(line) • count_tokens(tokens, counts)
+
+Constraints • Keep the core behavior and output unchanged.
+
+Persona Act as a senior Python developer.
+
+Style Write clean, Pythonic code using PEP-8 style.

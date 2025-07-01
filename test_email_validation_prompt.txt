@@ -1,0 +1,17 @@
+# Context  
+I have an is_valid_email function in email_utils.py that checks if an email address is valid.
+
+# Instruction  
+Write a Python test file named test_email.py using pytest to test the is_valid_email function.
+
+# Constraints  
+Include at least 3 valid email test cases and 3 invalid email test cases.  
+Use clear and readable assertions.  
+Assume email_utils.py is in the same directory.  
+Include an edge case with sub-domain (e.g., user@mail.example.com).
+
+# Persona  
+Act as a senior Python developer writing beginner-friendly tests.
+
+# Style  
+Write clean, simple, and easy-to-read test code.
