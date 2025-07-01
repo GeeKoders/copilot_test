@@ -1,0 +1,19 @@
+# Context
+I have four procedural helper functions in util_lib.py that load CSVs, compute column means and standard deviations, and save files.
+
+# Instruction
+Refactor this into a DataTable class with methods:
+• load(path) (classmethod)
+• mean(col_idx)
+• stddev(col_idx)
+• save(path)
+
+# Constraints
+• Keep the core behavior and file I/O unchanged.
+• Ensure the methods work on the class’s internal data structure.
+
+# Persona
+Act as a senior Python developer.
+
+# Style
+Write clean, Pythonic code using PEP-8 style.

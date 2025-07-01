@@ -1,0 +1,9 @@
+# Context
+The compound_interest function gives wrong results for some inputs.
+
+# Instruction
+Find the logic bug, explain the root cause, and suggest a fix.
+
+# Constraints
+• Keep the formula concise.
+• Update the docstring.
