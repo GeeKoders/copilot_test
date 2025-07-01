@@ -1,0 +1,6 @@
+Context: slugify returns URL slugs.
+Instruction: Create a file test_slugify.py and write pytest tests covering:
+• basic phrase
+• multiple punctuation
+• string with emojis (should remove)
+Constraint: save as test_slugify.py, clear assert messages.
